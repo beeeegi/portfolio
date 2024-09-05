@@ -338,6 +338,10 @@ body.dark #projects{
     background-color: #111111;
 }
 
+body.dark #feedback{
+  background-color: #111111;
+}
+
 
 .review-cards {
     display: grid;
