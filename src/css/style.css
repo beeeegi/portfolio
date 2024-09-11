@@ -632,51 +632,6 @@ body.dark .roblox-img{
   }
   
 
-/* Light Theme */
-.order-form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.order-form h2 {
-  text-align: center;
-  color: #007bff;  /* Dark text */
-  font-size: 22px;
-  margin-bottom: 20px;
-  letter-spacing: 0.7px;
-}
-
-/* Form Styling */
-#orderForm {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-#orderForm input, 
-#orderForm textarea {
-  padding: 10px;
-  border: 1px solid #ddd;  /* Light border */
-  border-radius: 5px;
-  font-size: 16px;
-  background-color: #f7f7f7;  /* Light input background */
-  color: #333;  /* Dark text */
-}
-
-#orderForm textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-#orderForm input:focus,
-#orderForm textarea:focus {
-  border-color: #007bff;
-  outline: none;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
-}
-
 .tos {
   display: flex;
   align-items: center;
@@ -698,89 +653,10 @@ body.dark .roblox-img{
   text-decoration: underline;
 }
 
-/* Button Styling */
-button[type="submit"] {
-  padding: 12px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-
-button[type="submit"]:focus {
-  outline: none;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
-}
-
-/* Dark Theme */
-body.dark .order-form {
-  color: #eee;  /* Light text */
-}
-
-body.dark .order-form h2 {
-  color: #3399ff;  /* Light text */
-}
-
-body.dark #orderForm input,
-body.dark #orderForm textarea {
-  background-color: #333;  /* Dark input background */
-  color: #ddd;  /* Light text */
-  border: 1px solid #555;  /* Dark border */
-}
-
-body.dark #orderForm input:focus,
-body.dark #orderForm textarea:focus {
-  border-color: #66aaff;
-  box-shadow: 0 0 8px rgba(102, 170, 255, 0.6);  /* Lighter blue focus */
-}
-
 body.dark .tos label {
   color: #ddd;  /* Light text */
 }
 
 body.dark .tos a {
   color: #66aaff;  /* Lighter blue */
-}
-
-body.dark button[type="submit"] {
-  background-color: #147efb;
-  color: #fff;
-}
-body.dark button[type="submit"]:hover {
-  background-color: #3399ff;  /* Darker button on hover */
-}
-
-.toggle-container {
-  text-align: center;
-}
-
-#toggleCurrency {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-#toggleCurrency:hover {
-  background-color: #0056b3;
-}
-
-.toggle-container{
-  display: flex;
-  justify-content: center;
-  gap: 15px; 
-}
-
-#robuxRange, #usdRange {
-  width: 100%;
 }
