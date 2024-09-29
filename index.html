@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Basic meta tags for character encoding and viewport -->
   <meta charset="utf-8">
-  <link rel="icon" href="./porticon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon and apple touch icon -->
+  <link rel="icon" href="./porticon.png">
+  <link rel="apple-touch-icon" href="./porticon.png">
+  
+  <!-- SEO meta tags -->
   <meta name="description" content="Lua developer with a passion for creating immersive gaming experiences. Specializing in advanced scripting, game development, and interactive systems. Check out my latest projects and innovations.">
   <meta name="theme-color" content="#000000">
-  <link rel="apple-touch-icon" href="./porticon.png">
+  
+  <!-- Google Fonts links -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Page title -->
   <title>Begi | Lua developer</title>
+  
+  <!-- Custom CSS file link -->
   <link href="./src/css/style.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Main body with dark theme class -->
   <body cz-shortcut-listen="true" class="dark">
     <div id="root">
+      <!-- Navigation bar -->
       <nav>
         <h3 class="logo">Begi.dev</h3>
         <ul>
+          <!-- Navigation menu items -->
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#feedback">Feedback</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="/tos.html" target="_blank">ToS</a></li>
+          <!-- Mobile menu toggle button -->
           <li>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-menu">
               <path d="M4 6l16 0"></path>
@@ -35,8 +48,8 @@
               <path d="M4 18l16 0"></path>
             </svg>
           </li>
+          <!-- Theme switch toggle -->
           <li>    
-            
             <div class="switch">
               <input type="checkbox" class="switch__input" id="Switch">
               <label class="switch__label" for="Switch">
@@ -44,18 +57,20 @@
                 <span class="switch__decoration"></span>
               </label>
             </div>
-            
           </li>
         </ul>
       </nav>
   
+      <!-- Mobile navigation menu (hidden by default) -->
       <div id="mobileNav" class="mobile-nav closed-menu">
+        <!-- Close button for mobile menu -->
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-x">
             <path d="M18 6l-12 12"></path>
             <path d="M6 6l12 12"></path>
           </svg>
         </span>
+        <!-- Mobile menu items -->
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -66,25 +81,30 @@
         </ul>
       </div>
   
+      <!-- Hero section -->
       <section id="home" class="hero">
         <div class="container">
           <div class="content">
             <div class="hero-main">
               <div class="hero-text">
                 <h1>Hello.</h1>
-                <p>I’m Begi, a 20-year-old Roblox scripter who’s all about creating fun and unique games. I love turning wild ideas into gameplay, and my code’s here to make sure everything runs smooth.</p>
+                <p>I'm Begi, a 20-year-old Roblox scripter who's all about creating fun and unique games. I love turning wild ideas into gameplay, and my code's here to make sure everything runs smooth.</p>
+                <!-- Social media links -->
                 <span>
-
                   <a aria-label="discord" rel="noreferrer" target="_blank" href="https://discord.com/users/859866420887289877/">
+                    <!-- Discord SVG icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-discord" viewBox="0 0 26 26">
-                      <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+                        <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
                     </svg>
                   </a>
                   <a aria-label="roblox developer forum" rel="noreferrer" target="_blank" href="https://devforum.roblox.com/u/mrbegi/summary">
-                    <svg id="roblox" class="web-blox-css-tss-nvpyzg-logo" width="26" height="26" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.78817 0.975342L3.21606 14.3004L12.3069 16.7337L13.4424 12.4994L29.5881 16.8264L32.0247 7.73884L6.78817 0.975342Z" fill="currentColor"></path><path d="M18.6069 21.448L2.46124 17.1211L0.0246582 26.2119L25.2611 32.9754L28.8332 19.6504L19.7424 17.2138L18.6069 21.448Z" fill="currentColor"></path></svg>                  </a>
+                    <!-- Roblox DevForum SVG icon -->
+                    <svg id="roblox" class="web-blox-css-tss-nvpyzg-logo" width="26" height="26" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.78817 0.975342L3.21606 14.3004L12.3069 16.7337L13.4424 12.4994L29.5881 16.8264L32.0247 7.73884L6.78817 0.975342Z" fill="currentColor"></path><path d="M18.6069 21.448L2.46124 17.1211L0.0246582 26.2119L25.2611 32.9754L28.8332 19.6504L19.7424 17.2138L18.6069 21.448Z" fill="currentColor"></path></svg>
+                  </a>
                   <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/beeeegi">
+                    <!-- GitHub SVG icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" style="transform: translateY(-7px); margin-left: 5px;">
-                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
                     </svg>
                   </a>
                   <a aria-label="roblox" rel="noreferrer" target="_blank" href="https://www.roblox.com/users/265075019/profile">
@@ -95,9 +115,11 @@
               <div class="hero-img"></div>
             </div>
   
+            <!-- Skills section -->
             <div class="skills">
-                <div class="logos">
+              <div class="logos">
                 <ul>
+                  <!-- Skill icons -->
                   <li><img src="https://skillicons.dev/icons?i=tensorflow,python" alt="skill-icon"></li>
                   <li><img src="https://skillicons.dev/icons?i=cpp,cs" alt="skill-icon"></li>
                   <li><img src="https://skillicons.dev/icons?i=unity,robloxstudio" alt="skill-icon"></li>
@@ -109,10 +131,12 @@
         </div>
       </section>
   
+      <!-- About section -->
       <section class="about" id="about">
         <div class="container">
           <div class="about-content">
             <div class="img-side">
+              <!-- Profile images and decorative elements -->
               <img src="./src/media/begi-idle.gif" alt="emoji" class="work-emoji">
               <img src="./src/media/begi-kompiuertan.jpg" alt="mee" class="img-side__main-img">
               <span>
@@ -123,222 +147,234 @@
               <h3>About me</h3>
               <img src="./src/media/begi-kompiuertan.jpg" alt="mee" class="begi-about-image" style="display: none; height: auto;">
               <h4>Roblox Developer & Game Enthusiast <br> Tbilisi, Georgia 📍</h4>
-              <p>I’m Begi, here to turn your game ideas into reality. With solid experience in Lua scripting and a passion for creating engaging gameplay, I focus on delivering clean, efficient code that brings your vision to life. Whether it's developing new game mechanics or refining existing systems, I’m dedicated to ensuring a smooth and enjoyable experience for your players.</p>
+              <p>I'm Begi, here to turn your game ideas into reality. With solid experience in Lua scripting and a passion for creating engaging gameplay, I focus on delivering clean, efficient code that brings your vision to life. Whether it's developing new game mechanics or refining existing systems, I'm dedicated to ensuring a smooth and enjoyable experience for your players.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="about" id="projects">
-        <div class="container">
-          <div class="text-side">
-            <h3>Past Works</h3>
-            
-          </div>
-          <div class="carousel-container">
-            <div class="overlay">
-                <h2 class="overlay-text">COMING SOON ⌛</h2>
+      <!-- Projects section -->
+        <section class="about" id="projects">
+            <div class="container">
+                <div class="text-side">
+                    <h3>Past Works</h3>
+                </div>
+                <!-- Carousel for project showcase (currently overlaid with "COMING SOON") -->
+                <div class="carousel-container">
+                    <div class="overlay">
+                        <h2 class="overlay-text">COMING SOON ⌛</h2>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <h3 class="video-title">Video Title 1</h3>
+                            <div class="video-wrapper">
+                                <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe> -->
+                            </div>
+                            <p class="video-description">Description for Video 1</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="video-title">Video Title 2</h3>
+                            <div class="video-wrapper">
+                                <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe> -->
+                            </div>
+                            <p class="video-description">Description for Video 2</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="video-title">Video Title 3</h3>
+                            <div class="video-wrapper">
+                                <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe> -->
+                            </div>
+                            <p class="video-description">Description for Video 3</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="video-title">Video Title 4</h3>
+                            <div class="video-wrapper">
+                                <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" allowfullscreen></iframe> -->
+                            </div>
+                            <p class="video-description">Description for Video 4</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel">
-                <div class="carousel-item">
-                    <h3 class="video-title">Video Title 1</h3>
-                    <div class="video-wrapper">
-                        <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe> -->
-                    </div>
-                    <p class="video-description">Description for Video 1</p>
-                </div>
-                <div class="carousel-item">
-                    <h3 class="video-title">Video Title 2</h3>
-                    <div class="video-wrapper">
-                        <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe> -->
-                    </div>
-                    <p class="video-description">Description for Video 2</p>
-                </div>
-                <div class="carousel-item">
-                    <h3 class="video-title">Video Title 3</h3>
-                    <div class="video-wrapper">
-                        <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe> -->
-                    </div>
-                    <p class="video-description">Description for Video 3</p>
-                </div>
-                <div class="carousel-item">
-                    <h3 class="video-title">Video Title 4</h3>
-                    <div class="video-wrapper">
-                        <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" allowfullscreen></iframe> -->
-                    </div>
-                    <p class="video-description">Description for Video 4</p>
-                </div>
-            </div>
-        </div>
-        
-        </div>
-      </section>
+        </section>
   
-      <section id="feedback" class="project">
-        <div class="container"><div class="review-title">USER FEEDBACK</div>
-          <div class="review-cards">
-            <div class="review-card">
-                <div class="review-header">
-                    <img src="./src/media/heartless.webp" class="review-avatar">
-                    <div class="review-user-info">
-                        <h3 class="review-username">Heartless</h3>
-                        <p class="review-date">August 24, 2024</p>
+        <!-- Feedback section -->
+        <section id="feedback" class="project">
+            <div class="container">
+                <div class="review-title">USER FEEDBACK</div>
+                <div class="review-cards">
+                    <!-- Multiple review cards with user feedback -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/heartless.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">Heartless</h3>
+                                <p class="review-date">August 24, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">Ordered a full phone system, got it fast. 10/10</p>
+                        <p class="review-cost">R$5,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/gato998.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">Gato998</h3>
+                                <p class="review-date">August 21, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">I needed a new placement system for my game, and he nailed it. Intuitive design and timely updates. Will definitely work with him again!</p>
+                        <p class="review-cost">R$15,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/Trembanyama.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">Trembanyama</h3>
+                                <p class="review-date">August 26, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">I hired him to add a SCP Morph, and it’s perfect. Highly recommended for scripting work.</p>
+                        <p class="review-cost">R$13,500</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/juanes.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">Juanes</h3>
+                                <p class="review-date">August 26, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">I asked for a few bug fixes, and he came up with a unique solutions. Excellent work!</p>
+                        <p class="review-cost">R$3,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/jules.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">Jules</h3>
+                                <p class="review-date">August 27, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">I needed a system to load and unload rigs in my outfit game. He implemented it perfectly, reducing lag and completing the final touch I needed. Efficient work and great results!</p>
+                        <p class="review-cost">R$4,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/ij.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">ij</h3>
+                                <p class="review-date">August 29, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">Did what i described in the commission details 10/10</p>
+                        <p class="review-cost">R$3,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/expert.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">skbrogexpert</h3>
+                                <p class="review-date">August 28, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">He is a professional scripter with good quality and quantity in his work.</p>
+                        <p class="review-cost">R$7,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/6xvl.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">6xvl</h3>
+                                <p class="review-date">September 1, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">I commissioned him to upgrade my Roblox shop GUI into a giftable gamepass system. The new feature works perfectly, implementation was quick, seamless, and fit my game’s style perfectly. Communication was excellent, and the developer was responsive to all my requests. Highly recommended for anyone needing scripting work done!</p>
+                        <p class="review-cost">R$8,000</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/sideissues.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">sideissues</h3>
+                                <p class="review-date">September 12, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">Hardworking and strong communication, if you're a serious developer I'd definitely reccommend him for reliability and to do his best to get the job done</p>
+                        <p class="review-cost">$90</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./src/media/Lakeys.webp" class="review-avatar">
+                            <div class="review-user-info">
+                                <h3 class="review-username">Lakeys</h3>
+                                <p class="review-date">September 12, 2024</p>
+                            </div>
+                        </div>
+                        <p class="review-text">Did a good job getting it quickly done without it taking a day or two, and adjusting the system to my liking overall. Great work.</p>
+                        <p class="review-cost">R$5,000</p>
                     </div>
                 </div>
-                <p class="review-text">Ordered a full phone system, got it fast. 10/10</p>
-                <p class="review-cost">R$5,000</p>
             </div>
-
-            <div class="review-card">
-              <div class="review-header">
-                  <img src="./src/media/gato998.webp" class="review-avatar">
-                  <div class="review-user-info">
-                      <h3 class="review-username">Gato998</h3>
-                      <p class="review-date">August 21, 2024</p>
-                  </div>
-              </div>
-              <p class="review-text">I needed a new placement system for my game, and he nailed it. Intuitive design and timely updates. Will definitely work with him again!</p>
-              <p class="review-cost">R$15,000</p>
-          </div>
-
-          <div class="review-card">
-            <div class="review-header">
-                <img src="./src/media/Trembanyama.webp" class="review-avatar">
-                <div class="review-user-info">
-                    <h3 class="review-username">Trembanyama</h3>
-                    <p class="review-date">August 26, 2024</p>
-                </div>
-            </div>
-            <p class="review-text">I hired him to add a SCP Morph, and it’s perfect. Highly recommended for scripting work.</p>
-            <p class="review-cost">R$13,500</p>
-        </div>
-
-        <div class="review-card">
-          <div class="review-header">
-              <img src="./src/media/juanes.webp" class="review-avatar">
-              <div class="review-user-info">
-                  <h3 class="review-username">Juanes</h3>
-                  <p class="review-date">August 26, 2024</p>
-              </div>
-          </div>
-          <p class="review-text">I asked for a few bug fixes, and he came up with a unique solutions. Excellent work!</p>
-          <p class="review-cost">R$3,000</p>
-      </div>
-        
-            <div class="review-card">
-                <div class="review-header">
-                    <img src="./src/media/jules.webp" class="review-avatar">
-                    <div class="review-user-info">
-                        <h3 class="review-username">Jules</h3>
-                        <p class="review-date">August 27, 2024</p>
-                    </div>
-                </div>
-                <p class="review-text">I needed a system to load and unload rigs in my outfit game. He implemented it perfectly, reducing lag and completing the final touch I needed. Efficient work and great results!</p>
-                <p class="review-cost">R$4,000</p>
-            </div>
-
-            
-          <div class="review-card">
-              <div class="review-header">
-                  <img src="./src/media/ij.webp" class="review-avatar">
-                  <div class="review-user-info">
-                      <h3 class="review-username">ij</h3>
-                      <p class="review-date">August 29, 2024</p>
-                  </div>
-              </div>
-              <p class="review-text">Did what i described in the commission details 10/10</p>
-              <p class="review-cost">R$3,000</p>
-          </div>
-        
-            <div class="review-card">
-                <div class="review-header">
-                    <img src="./src/media/expert.webp" class="review-avatar">
-                    <div class="review-user-info">
-                        <h3 class="review-username">skbrogexpert</h3>
-                        <p class="review-date">August 28, 2024</p>
-                    </div>
-                </div>
-                <p class="review-text">He is a professional scripter with good quality and quantity in his work.</p>
-                <p class="review-cost">R$7,000</p>
-            </div>
-
-            <div class="review-card">
-              <div class="review-header">
-                  <img src="./src/media/6xvl.webp" class="review-avatar">
-                  <div class="review-user-info">
-                      <h3 class="review-username">6xvl</h3>
-                      <p class="review-date">September 1, 2024</p>
-                  </div>
-              </div>
-              <p class="review-text">I commissioned him to upgrade my Roblox shop GUI into a giftable gamepass system. The new feature works perfectly, implementation was quick, seamless, and fit my game’s style perfectly. Communication was excellent, and the developer was responsive to all my requests. Highly recommended for anyone needing scripting work done!</p>
-              <p class="review-cost">R$8,000</p>
-            </div>
-
-          <div class="review-card">
-              <div class="review-header">
-                  <img src="./src/media/sideissues.webp" class="review-avatar">
-                  <div class="review-user-info">
-                      <h3 class="review-username">sideissues</h3>
-                      <p class="review-date">September 12, 2024</p>
-                  </div>
-              </div>
-              <p class="review-text">Hardworking and strong communication, if you're a serious developer I'd definitely reccommend him for reliability and to do his best to get the job done</p>
-              <p class="review-cost">$90</p>
-          </div>
-
-          <div class="review-card">
-              <div class="review-header">
-                  <img src="./src/media/Lakeys.webp" class="review-avatar">
-                  <div class="review-user-info">
-                      <h3 class="review-username">Lakeys</h3>
-                      <p class="review-date">September 12, 2024</p>
-                  </div>
-              </div>
-              <p class="review-text">Did a good job getting it quickly done without it taking a day or two, and adjusting the system to my liking overall. Great work.</p>
-              <p class="review-cost">R$5,000</p>
-          </div>
-          
-        </div>
-        
-        </div>
-      </section>      
+        </section>      
   
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="contact__content">
-            <div class="contact__title">
-              <h3>Contact Me</h3>
-            </div>
-            <div class="contact__icons">
-              <div class="contact__icon-box">
-                <span>
-                  <svg  xmlns="http://www.w3.org/2000/svg"  width="31"  height="31"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-hourglass-empty"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" /><path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z" /></svg>
-                </span>
-                <h1>GMT +4</h1>
-              </div>
-              <div class="contact__icon-box">
-                <span>
-                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" style="width: 3rem; height: 3rem;">
-                    <path d="M18.942 5.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.586 11.586 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3 17.392 17.392 0 0 0-2.868 11.662 15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.638 10.638 0 0 1-1.706-.83c.143-.106.283-.217.418-.331a11.664 11.664 0 0 0 10.118 0c.137.114.277.225.418.331-.544.328-1.116.606-1.71.832a12.58 12.58 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM8.678 14.813a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.929 1.929 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"></path>
-                  </svg>                 
-                </span>
-                <h1><a target="_blank" href="https://discord.com/users/859866420887289877/">Discord</a></h1>
-              </div>
-              <div class="contact__icon-box">
-                <span>
-                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
-                  </svg>                                  
-                </span>
-                <h1><a href="mailto:contact@begi.dev">contact@begi.dev</a></h1>
-              </div>
-          </div>
-        </div>
-      </section>
-  
+        <!-- Contact section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact__content">
+                    <div class="contact__title">
+                        <h3>Contact Me</h3>
+                    </div>
+
+                    <div class="contact__icons">
+                        <!-- Contact information with icons -->
+                        <div class="contact__icon-box">
+                            <span>
+                                <!-- Timezone icon -->
+                                <span>
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="31"  height="31"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-hourglass-empty"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" /><path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z" /></svg>
+                                </span>
+                            </span>
+
+                            <h1>GMT +4</h1>
+                        </div>
+                        <div class="contact__icon-box">
+                            <span>
+                                <!-- Discord icon -->
+                                <span>
+                                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" style="width: 3rem; height: 3rem;">
+                                      <path d="M18.942 5.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.586 11.586 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3 17.392 17.392 0 0 0-2.868 11.662 15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.638 10.638 0 0 1-1.706-.83c.143-.106.283-.217.418-.331a11.664 11.664 0 0 0 10.118 0c.137.114.277.225.418.331-.544.328-1.116.606-1.71.832a12.58 12.58 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM8.678 14.813a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.929 1.929 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"></path>
+                                    </svg>                 
+                                  </span>
+                            </span>
+
+                            <h1><a target="_blank" href="https://discord.com/users/859866420887289877/">Discord</a></h1>
+                        </div>
+                        <div class="contact__icon-box">
+                            <span>
+                                <!-- Email icon -->
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
+                                </svg> 
+                            </span>
+                            
+                            <h1><a href="mailto:contact@begi.dev">contact@begi.dev</a></h1>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </div>
-    <script src="./src/js/script.js"></script>
 
+    <!-- JavaScript file link -->
+    <script src="./src/js/script.js"></script>
   </body>  
-  
 </html>
