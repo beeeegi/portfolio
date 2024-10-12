@@ -22,8 +22,6 @@ document.querySelector('.mobile-menu').addEventListener('click', () => {
   }
 
 
-
-
   const carousel = document.querySelector('.carousel');
 const carouselItems = document.querySelectorAll('.carousel-item');
 
