@@ -672,5 +672,18 @@ body.dark .contact__icon-box span{
  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
+.license{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
 
-/* HOW TO PAY */
+.license a{
+  text-decoration: none;
+  color: #007bff;
+}
+
+.license a:hover {
+  text-decoration: underline;
+}
