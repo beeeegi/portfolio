@@ -820,9 +820,10 @@ h3{
   color: rgb(0, 179, 255);
 }
 
-.review-cards .review-card:nth-child(n+7) {
-  display: none; /* for the future */
-}
+/* FOR THE FUTURE */
+/* .review-cards .review-card:nth-child(n+7) {
+  display: none;
+} */
 
 .show-more-btn {
   background-color: #00b3ff;
